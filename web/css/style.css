@@ -1,0 +1,58 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+/* etiqueta */
+body {
+
+}
+
+nav {
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    color: white;
+} 
+
+section {
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+}
+/* class */
+.section-green {
+    background-color: green;
+}
+
+.section-red {
+    background-color: red;
+}
+/* Hijos */
+
+nav > div {
+    padding-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav h1 {
+   margin-right: 30px; 
+}
+
+nav > div > div {
+    font-size: 15px;
+}
+
+nav ul li {
+    font-size: 15px;
+    list-style:none;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav > div > div:hover,
+nav ul li:hover {
+    font-size: 20px;
+}
